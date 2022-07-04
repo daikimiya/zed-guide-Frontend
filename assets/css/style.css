@@ -1,0 +1,25 @@
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content h2{
+    text-shadow: 5px 5px 3px var(--primary-color);
+}
+
+
+.intro-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.combos-content{
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}

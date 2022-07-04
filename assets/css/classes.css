@@ -1,0 +1,27 @@
+.main-bg {
+    background-image: url('../imgs/zed-bg.jpg');
+    background-position:center center;
+    background-size: cover;
+    color: var(--color-white);
+    display: flex;
+}
+
+.white-bg {
+   background: var(--color-white);
+   color: var(--primary-color);
+   padding: 0;
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    height: 100vh;
+}
+
+.menu{
+    background: var(--color-white);
+}
